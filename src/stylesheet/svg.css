@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Right_foot{
+    animation: rightfoot 1.5s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes rightfoot {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(6.5deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+#Left_foot{
+    animation: leftfoot 1s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes leftfoot {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(3deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+#right_hand{
+    animation: hand 0.5s infinite linear;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+
+@keyframes hand {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(5deg);
+    }
+    100% {
+        transform: rotateZ(0deg);
+    }
+}
+
+#vector_23{
+    animation: code1 0.5s infinite;
+}
+
+@keyframes code1 {
+    0%{background-color: blanchedalmond;}
+    50%{background-color: darkgrey;}
+    100%{background-color: black;}
+}
