@@ -1,7 +1,16 @@
-*{
-    margin: 0;
+/* s{
+    margin-left: 50;
+    padding-bottom: 100;
     padding: 0;
     box-sizing: border-box;
+    background-color: coral;
+    height: 50%;
+    width: 50%;
+    display: inline-flex;
+}
+
+.clipPath{
+    background-color: coral;
 }
 
 #Right_foot{
@@ -58,12 +67,17 @@
     }
 }
 
-#vector_23{
-    animation: code1 0.5s infinite;
+#vector{
+    animation: hand 0.5s infinite linear;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    background-size: 20px 50px;
 }
 
 @keyframes code1 {
-    0%{background-color: blanchedalmond;}
-    50%{background-color: darkgrey;}
-    100%{background-color: black;}
-}
+    15%{opacity: 0}
+    35%{opacity: 1}
+    65%{opacity: 1}
+    85%{opacity: 0}
+} */
+

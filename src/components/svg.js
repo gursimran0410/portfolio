@@ -1,13 +1,9 @@
 import React from "react"
-// import {useSpring, animated} from 'react-spring'
 import '../stylesheet/svg.css'
-// import {Keyframes} from 'react-spring/renderprops'
-
 
 export default function CodingGuy(){
     return(
-        <div>
-            <svg width="709" height="534" viewBox="0 0 709 534" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg viewBox="0 0 709 534" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="undraw_researching_22gp 1" clipPath="url(#clip0)">
             <g id="Vector" filter="url(#filter0_d)">
             <path d="M358.066 533.977C551.955 533.977 709.133 522.565 709.133 508.489C709.133 494.412 551.955 483 358.066 483C164.178 483 7 494.412 7 508.489C7 522.565 164.178 533.977 358.066 533.977Z" fill="#775252" fillOpacity="0.66"/>
@@ -36,9 +32,9 @@ export default function CodingGuy(){
             <path id="Vector_20" opacity="0.2" d="M342.091 433.066L346.079 471.808L414.897 467.73L355.056 466.711L342.091 433.066Z" fill="black"/>
             <path id="Vector_21" d="M546.779 478.059C574.32 478.059 596.646 455.236 596.646 427.082C596.646 398.928 574.32 376.105 546.779 376.105C519.238 376.105 496.911 398.928 496.911 427.082C496.911 455.236 519.238 478.059 546.779 478.059Z" fill="#2F2E41"/>
             <path id="Vector_22" d="M290.228 278.095L352.064 275.895L358.048 252.607L294.218 254.576L290.228 278.095Z" fill="#2196F3"/>
-            <path id="Vector_23" d="M274.271 291.35L368.021 288.291L369.019 284.212L275.268 287.587L274.271 291.35Z" fill="#E6E6E6"/>
-            <path id="Vector_24" d="M272.276 301.545L366.027 298.486L367.024 294.408L273.273 297.782L272.276 301.545Z" fill="#E6E6E6"/>
-            <path id="Vector_25" d="M271.279 309.701L365.029 306.643L366.027 302.564L272.276 305.938L271.279 309.701Z" fill="#E6E6E6"/>
+            <path id="Vector" d="M274.271 291.35L368.021 288.291L369.019 284.212L275.268 287.587L274.271 291.35Z" fill="#E6E6E6"/>
+            <path id="Vector" d="M272.276 301.545L366.027 298.486L367.024 294.408L273.273 297.782L272.276 301.545Z" fill="#E6E6E6"/>
+            <path id="Vector" d="M271.279 309.701L365.029 306.643L366.027 302.564L272.276 305.938L271.279 309.701Z" fill="#E6E6E6"/>
             </g>
             <defs>
             <filter id="filter0_d" x="3" y="483" width="710.133" height="58.9771" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
@@ -51,10 +47,9 @@ export default function CodingGuy(){
             <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
             </filter>
             <clipPath id="clip0">
-            <rect width="709" height="534" fill="white"/>
+            <rect width="709" height="534" fill="black"/>
             </clipPath>
             </defs>
-            </svg>
-        </div>
+        </svg>
     )
 }
